@@ -15,14 +15,16 @@
     <link
       rel="icon"
       type="image/x-icon"
-      href="{% static 'assets/favicon.ico' %}">
+      href="{% static '/assets/favicon.ico' %}"
+    />
     <!-- Bootstrap icons-->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
-      rel="stylesheet">
+      rel="stylesheet"
+    />
 
     <!-- Core theme CSS (includes Bootstrap)-->
-    <link href="{% static 'css/styles.css' %}" rel="stylesheet" />
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
   </head>
   <body>
     <!-- Navigation-->
@@ -91,8 +93,6 @@
         <div
           class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center"
         >
-
-
           {% for product in products %}
           <div class="col mb-5">
             <div class="card h-100">
@@ -109,9 +109,8 @@
                   <h5 class="fw-bolder">{{ product.name }}</h5>
                   <!-- Product price-->
                   ETH{{ product.price }}
-                  <br/>
+                  <br />
                   {{ product.description }}
-
                 </div>
               </div>
               <!-- Product actions-->
@@ -124,9 +123,6 @@
               </div>
             </div>
           </div>
-        
-
-
 
           <div class="col mb-5">
             <div class="card h-100">
@@ -176,10 +172,6 @@
             </div>
           </div>
 
-
-
-
-
           <div class="col mb-5">
             <div class="card h-100">
               <!-- Sale badge-->
@@ -217,9 +209,6 @@
               </div>
             </div>
           </div>
-
-
-
 
           <div class="col mb-5">
             <div class="card h-100">
@@ -259,9 +248,6 @@
             </div>
           </div>
 
-
-
-
           <div class="col mb-5">
             <div class="card h-100">
               <!-- Sale badge-->
@@ -300,10 +286,6 @@
             </div>
           </div>
 
-
-
-
-
           <div class="col mb-5">
             <div class="card h-100">
               <!-- Product image-->
@@ -331,11 +313,6 @@
               </div>
             </div>
           </div>
-
-
-
-
-
 
           <div class="col mb-5">
             <div class="card h-100">
@@ -384,11 +361,6 @@
               </div>
             </div>
           </div>
-
-
-
-
-
 
           <div class="col mb-5">
             <div class="card h-100">
@@ -428,8 +400,6 @@
             </div>
           </div>
           {% endfor %}
-
-
         </div>
       </div>
     </section>
@@ -447,4 +417,3 @@
     <script src="{static 'js/scripts.js'}"></script>
   </body>
 </html>
-
