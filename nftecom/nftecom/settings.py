@@ -29,7 +29,6 @@ INSTALLED_APPS = [
     'livereload',
     'django.contrib.staticfiles',
     'webstore', 
-    'cart',
 ]
 
 MIDDLEWARE = [
