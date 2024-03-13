@@ -1,11 +1,26 @@
 from django.shortcuts import redirect, render
-from .models import Product
+from .models import Product, Profile
 from django.contrib.auth import authenticate, login, logout 
 from django.contrib import messages
 from django.contrib.auth.models import User
 from django.contrib.auth.forms import UserCreationForm
-from .forms import SignUpForm, UpdateUserForm, ChangePasswordForm
+from .forms import SignUpForm, UpdateUserForm, ChangePasswordForm, UserInfoForm
 from django import forms
+
+def update_info(request):
+	if request.user.is_authenticated:
+		current_user = Profile.objects.get(user__id=request.user.id)
+		form = UserInfoForm(request.POST or None, instance=current_user)
+	
+		if form.is_valid():
+			form.save()
+			messages.success(request, "Your info has been updated!!")
+			return redirect('home')
+		return render(request, "update_info.html", {'form':form})
+	else:
+		messages.success(request, "Log in to view the page!")
+		return redirect('home')
+   
 
 
 def update_password(request):
@@ -97,7 +112,7 @@ def register_user(request):
        user = authenticate(username=username, password=password)
        login(request, user)
        messages.success(request,("You have registered!"))
-       return redirect('home')
+       return redirect('update_info')
      else: 
       messages.success(request, ("Try again"))
       return redirect('register')
