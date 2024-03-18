@@ -2,7 +2,7 @@ Website Crypto Pets by Cami Digital
 
 Crypto Pets by Cami Digital is a website that features NFT created and copyrighted by the author that soon will be available on OpenSea platform.
 
-Main purpose of this work was to make a website with Django admin and learn how to set virtual environment create project models, work with py files lean how to set urls patterns wsgi and asgi configurations and migrations and import form Django. 
+Main purpose of this work was to make a website with Django admin and learn how to set virtual environment create project models, work with py files lean how to set urls patterns wsgi and asgi configurations and migrations and import from Django. 
 
 Features
 
@@ -92,10 +92,6 @@ Validator Testing
 Python code conforms to the PEP8 style guide.
 
 
-Deployment
-
-The website deployed to Github pages.
-
 Credits
 
 Content
@@ -126,25 +122,7 @@ https://www.youtube.com/@ProgrammingKnowledge2
 
 https://dev.to/smpnjn/how-to-fix-zsh-command-not-found-python-22j8
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-How to embed images in GitHub Readme File The WP GURU.
+https://www.youtube.com/@WPguru
 
 
 Media
