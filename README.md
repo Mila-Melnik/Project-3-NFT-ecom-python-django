@@ -33,7 +33,7 @@ Registration page offers users to register on the website with their email addre
 
  After registration the user can log in to the website.
 
-<img src="images.readme/Login page.jpeg" width=500>
+<img src="MainReadme/Login page.jpeg">
 
 
  If users enter wrong details a message suggesting to check  their credentials pops up.
