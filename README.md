@@ -23,12 +23,12 @@ Search page offers to search for products on the website.
 
 About page has a short description of the website.
 
-<img src="MainReadme/About page.jpeg" width=500>
+<img src="MainReadme/About page.jpeg">
 
 
 Registration page offers users to register on the website with their email address name surname username and password.
 
-<img src="images.readme/Registration page.jpeg" width=500>
+<img src="MainReadme/Registration page.jpeg">
 
 
  After registration the user can log in to the website.
