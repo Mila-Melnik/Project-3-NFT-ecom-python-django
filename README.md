@@ -38,7 +38,7 @@ Registration page offers users to register on the website with their email addre
 
  If users enter wrong details a message suggesting to check  their credentials pops up.
 
-<img src="images.readme/Login check.jpeg" width=500>
+<img src="MainReadme/Login check.jpeg>
 
 
  Logged in message pops up when users log in to the website.
