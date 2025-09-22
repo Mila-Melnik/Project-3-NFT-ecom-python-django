@@ -38,42 +38,42 @@ Registration page offers users to register on the website with their email addre
 
  If users enter wrong details a message suggesting to check  their credentials pops up.
 
-<img src="MainReadme/Login check.jpeg>
+<img src="MainReadme/Login check.jpeg">
 
 
  Logged in message pops up when users log in to the website.
 
-<img src="images.readme/Logged in message.jpeg" width=500>
+<img src="MainReadme/Logged in message.jpeg">
 
  
  Users can update their info.
 
-<img src="images.readme/Update info page.jpeg" width=500>
+<img src="MainReadme/Update info page.jpeg">
 
 
  Updated info message pops up.
  
-<img src="images.readme/Update info message.jpeg" width=500>
+<img src="MainReadme/Update info message.jpeg">
  
 
  Users can update their profile.
 
-<img src="images.readme/Update profile page.jpeg" width=500>
+<img src="MainReadme/Update profile page.jpeg">
  
  
  Users can update their password.
 
-<img src="images.readme/Update password page.jpeg" width=500>
+<img src="MainReadme/Update password page.jpeg">
 
 
  Users can log out of the website.
 
-<img src="images.readme/Logged out  message.jpeg" width=500>
+<img src="MainReadme/Logged out  message.jpeg">
 
 
 The website is administered on Django platform.
 
-<img src="images.readme/Django admin.jpeg" width=500>
+<img src="MainReadme/Django admin.jpeg">
 
 Testing
 
