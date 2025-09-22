@@ -19,62 +19,62 @@ The main section displays an announcement and the grid of NFTs collection.
 
 Search page offers to search for products on the website.
 
- <img src="images.readme/Search page.jpeg" width=500>
+<img src="images.readme/Search page.jpeg" width=500>
 
 
 About page has a short description of the website.
 
- <img src="images.readme/About page.jpeg" width=500>
+<img src="images.readme/About page.jpeg" width=500>
 
 
 Registration page offers users to register on the website with their email address name surname username and password.
 
- <img src="images.readme/Registration page.jpeg" width=500>
+<img src="images.readme/Registration page.jpeg" width=500>
 
 
  After registration the user can log in to the website.
 
- <img src="images.readme/Login page.jpeg" width=500>
+<img src="images.readme/Login page.jpeg" width=500>
 
 
  If users enter wrong details a message suggesting to check  their credentials pops up.
 
- <img src="images.readme/Login check.jpeg" width=500>
+<img src="images.readme/Login check.jpeg" width=500>
 
 
  Logged in message pops up when users log in to the website.
 
- <img src="images.readme/Logged in message.jpeg" width=500>
+<img src="images.readme/Logged in message.jpeg" width=500>
 
  
  Users can update their info.
 
- <img src="images.readme/Update info page.jpeg" width=500>
+<img src="images.readme/Update info page.jpeg" width=500>
 
 
  Updated info message pops up.
  
- <img src="images.readme/Update info message.jpeg" width=500>
+<img src="images.readme/Update info message.jpeg" width=500>
  
 
  Users can update their profile.
 
- <img src="images.readme/Update profile page.jpeg" width=500>
+<img src="images.readme/Update profile page.jpeg" width=500>
  
  
  Users can update their password.
 
- <img src="images.readme/Update password page.jpeg" width=500>
+<img src="images.readme/Update password page.jpeg" width=500>
 
 
  Users can log out of the website.
 
- <img src="images.readme/Logged out  message.jpeg" width=500>
+<img src="images.readme/Logged out  message.jpeg" width=500>
 
 
 The website is administered on Django platform.
 
- <img src="images.readme/Django admin.jpeg" width=500>
+<img src="images.readme/Django admin.jpeg" width=500>
 
 Testing
 
