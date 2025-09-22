@@ -19,7 +19,7 @@ The main section displays an announcement and the grid of NFTs collection.
 
 Search page offers to search for products on the website.
 
-![](/path/to/MainReadme/Search page.jpeg)
+<img src="MainReadme/Search page.jpeg">
 
 About page has a short description of the website.
 
