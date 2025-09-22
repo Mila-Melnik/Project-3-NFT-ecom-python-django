@@ -14,7 +14,7 @@ The home page consists of a title on the top left and the menu bar on the top ri
 
 The main section displays an announcement and the grid of NFTs collection. 
 
- <img src="MainReadme/About page.jpeg">
+ <img src="MainReadme/Home page.jpeg">
 
 
 Search page offers to search for products on the website.
